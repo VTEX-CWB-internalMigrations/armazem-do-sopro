@@ -71,7 +71,7 @@
   },
   "logo#desktop": {
     "props": {
-      "title": "Logo",
+      "title": "Logo loja",
       "href": "/",
       "url": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___fa69a6c246a6d930a37ee1b49ed72dbe.png",
       "width": "180"
