@@ -2,12 +2,10 @@
   "store.home": {
     "blocks": [
       "carousel#One",
-      // "flex-layout.row#deals",
       "image#whatsapp",
+      "slider-layout#brands",
       "shelf#showcase01",
-      "shelf#showcase02",
-      "shelf#showcase03",
-      "flex-layout.row#shelfbanner"
+      "shelf#showcase02"
     ]
   },
   "carousel#One": {
@@ -27,7 +25,7 @@
       ],
       "height": 450,
       "showArrows": true,
-      "showDots": true
+      "showDots": false
     }
   },
   "image#whatsapp": {
@@ -37,7 +35,87 @@
       "blockClass": "WhatsImage"
     }
   },
-  // Showcase 01
+  "slider-layout#brands": {
+    "children": [
+      "image#one",
+      "image#two",
+      "image#three",
+      "image#four",
+      "image#five",
+      "image#six",
+      "image#seven",
+      "image#eight",
+      "image#nine"
+    ],
+    "props": {
+      "blockClass": "brandSliderLayout",
+      "showNavigationArrows": "never",
+      "showPaginationDots": "always"
+    }
+  },
+  "image#one": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#two": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#three": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#four": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#five": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#six": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#seven": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#eight": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#nine": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
   "shelf#showcase01": {
     "blocks": [
       "product-summary.shelf"
@@ -48,9 +126,9 @@
         "maxItems": 10,
         "itemsPerPage": 5,
         "scroll": "BY_PAGE",
-        "arrows": false,
-        "dots": true,
-        "titleText": "Medicamentos Especiais"
+        "arrows": true,
+        "paginationDotsVisibility": "hidden",
+        "titleText": "ESPECIAIS DO ARMAZÉM"
       }
     }
   },
@@ -78,35 +156,21 @@
       "showLabels": false
     }
   },
-  // Banner middle showCase
-  "flex-layout.row#shelfbanner": {
-    "children": [
-      "image#shelfmiddlebanner"
-    ]
-  },
-  "image#shelfmiddlebanner": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner03___04ae05a51b8784f05c9e60d7af6afb54.jpg",
-      "alt": "Banner meio",
-      "blockClass": "bannerMiddle"
-    }
-  },
   // Showcase 02
   "shelf#showcase02": {
     "blocks": [
       "product-summary.shelf#home2"
     ],
     "props": {
-      "category": "2",
       "orderBy": "OrderByTopSaleDESC",
       "blockClass": "consult-shelf",
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 5,
         "scroll": "BY_PAGE",
-        "arrows": false,
-        "dots": true,
-        "titleText": "Produtos em destaque"
+        "arrows": true,
+        "paginationDotsVisibility": "hidden",
+        "titleText": "PALHETA-DUPLA"
       }
     }
   },
@@ -121,41 +185,5 @@
     "props": {
       "blockClass": "consult-shelf"
     }
-  },
-  // Showcase 02
-  "shelf#showcase03": {
-    "blocks": [
-      "product-summary.shelf#home3"
-    ],
-    "props": {
-      "category": "2",
-      "orderBy": "OrderByTopSaleDESC",
-      "blockClass": "abelvolks-shelf",
-      "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
-        "scroll": "BY_PAGE",
-        "arrows": false,
-        "dots": true,
-        "titleText": "Produtos Abelvolks"
-      }
-    }
-  },
-  "product-summary.shelf#home3": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ],
-    "props": {
-      "blockClass": "consult-shelf"
-    }
   }
-  // "product-summary-buy-button":{
-  //   "props":{
-  //     "buyButtonText":"Comprar",
-  //   }
-  // },
 }

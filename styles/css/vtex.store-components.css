@@ -20,7 +20,7 @@
 }
 
 .newsletter {
-  background-color: #d12e2e;
+  background-color: #3f3e00;
   width:100%;
   text-align: center;
 }
@@ -110,7 +110,7 @@
 
 .productNameContainer .productBrand{
   font-size: 25px;
-  color: #188f89;
+  color: #3f3e00;
 }
 
 .productDescriptionTitle{
@@ -140,7 +140,7 @@
   }
 
   .searchBarIcon{
-    background: #188f89;
+    background: #3f3e00;
     padding: 11px 30px;
     color: #fff;
     margin-right: -17px;

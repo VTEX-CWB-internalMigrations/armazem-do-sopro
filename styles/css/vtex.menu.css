@@ -1,6 +1,6 @@
 .menuContainer--mobileMenu .styledLinkContainer{
     padding: 10px 20px;
-    background: #01abb5;
+    background: #9d9a01;
     margin: 0px;
     width: 100%;
     border-bottom: 2px solid #fff;
@@ -14,17 +14,12 @@
     background: #fff;
     margin: 0px;
     width: 100%;
-    border-bottom: 1px solid #01abb5;
+    border-bottom: 1px solid #9d9a01;
 }
 
 .menuContainer--mobileMenu .menuContainer--mobileSubmenu .styledLink{
     color: #01abb5;
 }
-
-
-
-
-
 
 @media only screen and (min-width: 80em){
     .menuContainer{justify-content: center;}

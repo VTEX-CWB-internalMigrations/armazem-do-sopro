@@ -60,9 +60,7 @@
     width:100%;
     margin: 0 auto 60px;
   }
-  .flexRow--footerInfo-content .stretchChildrenWidth:first-child{
-    width:70% !important;
-  }
+  
   .flexRow--footerInfo-content .stretchChildrenWidth:last-child{
     width: 25%;
     text-align: right;

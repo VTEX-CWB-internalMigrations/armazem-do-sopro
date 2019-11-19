@@ -9,7 +9,7 @@
 
 .headerRow--main-header-mobile .headerRowBackground {
   padding: 10px 0px;
-  background-color: #fff;
+  background: #9d9a01;
 }
 
 .headerRowContainer{
@@ -24,4 +24,12 @@
   padding: 10px 0px 20px;
 }
 
+.headerRowBackground--logoRow {
+  background: #9d9a01;
+}
+
 .headerRowBackground--main-header-mobile{border-bottom:1px solid #ddd;}
+
+.lightGreenCart {
+  color: #9d9a01;
+}

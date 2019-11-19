@@ -10,7 +10,6 @@
       "rich-text#whatsapp",
       "newsletter",
       "footer-row#1-desktop",
-      "footer-row#2-desktop",
       "footer-row#3-desktop"
     ]
   },
@@ -33,11 +32,6 @@
   "footer-row#1-desktop": {
     "children": [
       "flex-layout.row#footer"
-    ]
-  },
-  "footer-row#2-desktop": {
-    "children": [
-      "flex-layout.row#footer2"
     ]
   },
   "footer-row#3-desktop": {
@@ -65,24 +59,11 @@
       "width": "3%"
     }
   },
-  "flex-layout.row#footer2": {
-    "children": [
-      "flex-layout.col#footer2Col1",
-      "footer-spacer",
-      "flex-layout.col#footer2Col2",
-      "footer-spacer",
-      "flex-layout.col#footer2Col3"
-    ],
-    "props": {
-      "blockClass": "contentFooter2"
-    }
-  },
   "flex-layout.row#footer3": {
     "children": [
       "flex-layout.col#footer3Col1"
     ]
   },
-  // Footer Col 1
   "flex-layout.col#footerCol1": {
     "children": [
       "rich-text#institucional",
@@ -91,7 +72,6 @@
       "rich-text#politica",
       "rich-text#trocasEdevolucoes",
       "rich-text#informacoesImportantes",
-      // "rich-text#faleConosco",
       "rich-text#perguntasFrequentes"
     ],
     "props": {
@@ -134,19 +114,12 @@
       "blockClass": "footer-links"
     }
   },
-  // "rich-text#faleConosco":{
-  //   "props":{
-  //     "text":"[Fale conosco](/fale-conosco)",
-  //     "blockClass":"footer-links"
-  //   }
-  // },
   "rich-text#perguntasFrequentes": {
     "props": {
       "text": "[Perguntas frequentes](/questions)",
       "blockClass": "footer-links"
     }
   },
-  // Footer Col 2
   "flex-layout.col#footerCol2": {
     "children": [
       "rich-text#nossasVantagens",
@@ -182,15 +155,21 @@
       "blockClass": "footer-seguranca"
     }
   },
-  // Footer Col 3
   "flex-layout.col#footerCol3": {
     "children": [
-      "rich-text#centralAtendimento",
-      "rich-text#footer-telefone",
-      "rich-text#footer-whatsapp"
+      "rich-text#siganos",
+      "social-networks",
+      "rich-text#pagamento",
+      "image#flagPayments"
     ],
     "props": {
       "blockClass": "footer-content3"
+    }
+  },
+  "rich-text#siganos": {
+    "props": {
+      "text": "SIGA NOS!",
+      "blockClass": "footer-title"
     }
   },
   "rich-text#centralAtendimento": {
@@ -211,61 +190,19 @@
       "blockClass": "footer-telefone"
     }
   },
-  "rich-text#footer-whatsapp": {
-    "props": {
-      "text": "![whatsapp](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-whatsapp-footer___463b541645cc6bb7f56e7e1fd896be3b.png) (31) 98881-7737",
-      "blockClass": "footer-whatsapp"
-    }
-  },
   "rich-text#footer-horario": {
     "props": {
-      "text": "![horário](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-clock-footer___d9fc490193211e6c91996794b3f323a4.png) Segunda a sexta-feira de 08h00 as 12h00 (exceto feriados)",
+      "text": "Segunda a sexta-feira de 08h00 as 12h00 (exceto feriados)",
       "blockClass": "footer-horario"
     }
   },
-  // Footer Col 4
   "flex-layout.col#footerCol4": {
     "children": [
-      "rich-text#farmaceuticoResponsavel",
-      // "rich-text#footer-responsavel"
-      "rich-text#emailPrincipal",
-      "rich-text#footer-horario"
+      "rich-text#seguranca",
+      "flex-layout.row#certificados"
     ],
     "props": {
       "blockClass": "footer-content4"
-    }
-  },
-  "rich-text#emailPrincipal": {
-    "props": {
-      "text": "SEU E-MAIL AQUI",
-      "blockClass": "emailHere"
-    }
-  },
-  "rich-text#farmaceuticoResponsavel": {
-    "props": {
-      "text": "FARMACÊUTICO RESPONSÁVEL",
-      "blockClass": "footer-title"
-    }
-  },
-  "rich-text#footer-responsavel": {
-    "props": {
-      "text": "Ana Carolina Gonçalves<br/>CRF/MG: 35722<br/>CMVS: 002920/2018<br/>Alvará de Funcionamento da ANVISA (AFE):<br/>25351.365818/2018-53<br/>Razão Social: F.R. de Freitas<br/>CNPJ: 08.002.459/0004-89<br/><br/>Telefones:<br/>Conselho Regional de Farmácia: (31)3218-1000<br/>Vigilância Estadual (MG): (31) 3215-7362",
-      "blockClass": "footer-responsavel"
-    }
-  },
-  "flex-layout.col#footer2Col1": {
-    "children": [
-      "rich-text#siganos",
-      "social-networks"
-    ],
-    "props": {
-      "blockClass": "content-footerRow2"
-    }
-  },
-  "rich-text#siganos": {
-    "props": {
-      "text": "SIGA NOS!",
-      "blockClass": "footer-title"
     }
   },
   "social-networks": {
@@ -281,12 +218,6 @@
         }
       ]
     }
-  },
-  "flex-layout.col#footer2Col2": {
-    "children": [
-      "rich-text#pagamento",
-      "image#flagPayments"
-    ]
   },
   "rich-text#pagamento": {
     "props": {
@@ -316,20 +247,9 @@
   },
   "flex-layout.row#certificados": {
     "children": [
-      "flex-layout.col#certificadoAnvisa",
       "flex-layout.col#certificadoLetsEncrypt",
       "flex-layout.col#certificadoGoogle"
     ]
-  },
-  "flex-layout.col#certificadoAnvisa": {
-    "children": [
-      "rich-text#anvisa"
-    ]
-  },
-  "rich-text#anvisa": {
-    "props": {
-      "text": "![anvisa](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-anvisa___43d8fc0d2a66f769f9ceb8cadeb3f5bb.png)"
-    }
   },
   "rich-text#letsEncrypt": {
     "props": {
@@ -359,6 +279,7 @@
   "flex-layout.row#footerInfo": {
     "children": [
       "flex-layout.col#footerTextInfo",
+      "rich-text#direitosReservados",
       "flex-layout.col#footerLinkDev"
     ],
     "props": {
@@ -367,19 +288,17 @@
   },
   "flex-layout.col#footerTextInfo": {
     "children": [
-      "rich-text#direitos",
-      "rich-text#direitosReservados"
-    ]
+      "rich-text#direitos"    ]
   },
   "rich-text#direitos": {
     "props": {
-      "text": "Preços e condições de pagamento válidos exclusivamente para compras efetuadas no site, não valendo necessariamente para a rede de lojas físicas. As imagens dos produtos são meramente ilustrativas. Todos os preços e condições comerciais estão sujeitos a alteração sem prévio aviso. Abelvolks Copyright®-2018.Todos os direitos reservados./ Cnpj 00.129.393/0001-38. Av. Anhaguera, nº 3.745 St leste universitário- Goiânia, GO - 74610-010",
+      "text": "Copyright Martin Masver Instrumentos Musicais Ltda. CNPJ: 13.416.311/0001-88. Endereço: Rua Oscar Freire, 2590 - Pinheiros - São Paulo - SP / CEP: 05409-012",
       "blockClass": "text-direitos"
     }
   },
   "rich-text#direitosReservados": {
     "props": {
-      "text": "® ABELVOLKS. TODOS OS DIREITOS RESERVADOS.",
+      "text": "® ARMAZÉM DO SOPRO. TODOS OS DIREITOS RESERVADOS.",
       "blockClass": "text-direitosReservados"
     }
   },
@@ -501,7 +420,8 @@
     "children": [
       "rich-text#centralAtendimento",
       "rich-text#footer-endereco",
-      "rich-text#footer-telefone"
+      "rich-text#footer-telefone",
+      "rich-text#footer-horario"
     ],
     "props": {
       "blockClass": "footer-content2"

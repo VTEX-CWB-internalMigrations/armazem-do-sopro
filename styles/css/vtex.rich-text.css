@@ -173,6 +173,15 @@
   position: fixed;
   bottom: 15px;
   left: 15px;
+  background: url(https://armazemdosopro.vteximg.com.br/arquivos/whatsapp.png) no-repeat scroll 50% #4dc247;
+  text-indent: -9999px;
+  color: transparent;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 100%;
+  box-shadow: 2px 2px 5px #8a8a8a;
+  z-index: 9;
 }
 
 .container--footer-endereco, .container--footer-telefone, .container--footer-whatsapp, .container--footer-horario{font-size:.8rem;}
@@ -198,7 +207,7 @@
 .container--questionText .headingLevel4{
     margin: 0px;
     padding: 10px 10px;
-    background: #188f89;
+    background: #3f3e00;
     width: 100%;
     display: flex;
     color: #fff;
