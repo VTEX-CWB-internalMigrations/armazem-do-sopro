@@ -1,3 +1,7 @@
 .slide--brandSliderLayout {
     padding: 10px;
 }
+
+.slideChildrenContainer--brandSliderLayout {
+    text-align: center;
+}

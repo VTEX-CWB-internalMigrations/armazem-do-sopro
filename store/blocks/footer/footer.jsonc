@@ -86,7 +86,7 @@
   },
   "rich-text#sobreEmpresa": {
     "props": {
-      "text": "[Sobre a empresa](/about-us)",
+      "text": "[Sobre a empresa](/sobre-a-empresa)",
       "blockClass": "footer-links"
     }
   },
@@ -365,8 +365,11 @@
       "rich-text#segurancaFooter",
       "rich-text#politica",
       "rich-text#trocasEdevolucoes",
-      "rich-text#informacoesImportantes",
-      // "rich-text#faleConosco",
+      "rich-text#lojaFisica",
+      "rich-text#lutheria",
+      "rich-text#programaDeFidelidade",
+      "rich-text#contato",
+      "rich-text#evento",
       "rich-text#perguntasFrequentes"
     ],
     "props": {
@@ -381,7 +384,7 @@
   },
   "rich-text#sobreEmpresa": {
     "props": {
-      "text": "[Sobre a empresa](/about-us)",
+      "text": "[Sobre a empresa](/sobre-a-empresa)",
       "blockClass": "footer-links"
     }
   },
@@ -403,15 +406,39 @@
       "blockClass": "footer-links"
     }
   },
-  "rich-text#informacoesImportantes": {
+  "rich-text#lojaFisica": {
     "props": {
-      "text": "[Informações importantes](/informacoes-importantes)",
+      "text": "[Loja física](/loja-fisica)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#lutheria": {
+    "props": {
+      "text": "[Lutheria](/lutheria)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#programaDeFidelidade": {
+    "props": {
+      "text": "[Programa de fidelidade](/programa-de-fidelidade)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#contato": {
+    "props": {
+      "text": "[Contato](/contato)",
+      "blockClass": "footer-links"
+    }
+  },
+  "rich-text#evento": {
+    "props": {
+      "text": "[Eventos](/eventos)",
       "blockClass": "footer-links"
     }
   },
   "rich-text#perguntasFrequentes": {
     "props": {
-      "text": "[Perguntas frequentes](/questions)",
+      "text": "[Perguntas frequentes](/perguntas-frequentes)",
       "blockClass": "footer-links"
     }
   },

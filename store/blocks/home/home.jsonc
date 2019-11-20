@@ -45,11 +45,19 @@
       "image#six",
       "image#seven",
       "image#eight",
-      "image#nine"
+      "image#nine",
+      "image#ten",
+      "image#eleven",
+      "image#twelve",
+      "image#thirteen",
+      "image#fourteen",
+      "image#fifteen",
+      "image#nineteen",
+      "image#twenty"
     ],
     "props": {
       "blockClass": "brandSliderLayout",
-      "showNavigationArrows": "never",
+      "showNavigationArrows": "always",
       "showPaginationDots": "always"
     }
   },
@@ -116,6 +124,76 @@
       "blockClass": "brandsSlider"
     }
   },
+  "image#ten": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#eleven": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#twelve": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#thirteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#fourteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#fifteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#sixteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#seventeen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#nineteen": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
+  "image#twenty": {
+    "props": {
+      "src": "https://www.armazemdosopro.com.br/assets/templates/14/imagens/logoForn001.png",
+      "url": "https://api.whatsapp.com/send?1=pt_BR&phone=5562999759966",
+      "blockClass": "brandsSlider"
+    }
+  },
   "shelf#showcase01": {
     "blocks": [
       "product-summary.shelf"
@@ -153,7 +231,9 @@
   },
   "product-summary-price": {
     "props": {
-      "showLabels": false
+      "showLabels": false,
+      "showInstallments": true,
+      "showDiscountValue": true
     }
   },
   // Showcase 02
