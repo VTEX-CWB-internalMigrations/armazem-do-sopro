@@ -1,162 +1,178 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
-      "menu-item#acessories",
-      "menu-item#audio",
-      "menu-item#zetta",
-      "menu-item#official",
-      "menu-item#sport",
-      "menu-item#forHome",
-      "menu-item#bag",
-      "menu-item#perfume"
+      "menu-item#clarinetes",
+      "menu-item#saxofones",
+      "menu-item#oboes",
+      "menu-item#fagotes",
+      "menu-item#flautas",
+      "menu-item#metais",
+      "menu-item#marcas",
+      "menu-item#cds",
+      "menu-item#valePresente"
     ],
     "props": {
-      "blockClass": "mainMenu"
+      "blockClass": "mainMenu",
+      "showSubcategories": true
     }
   },
-  "menu-item#acessories": {
+  "menu-item#clarinetes": {
     "props": {
-      "id": "menu-item-category-acessories",
+      "id": "menu-item-category-clarinetes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/acessorios",
+        "href": "/clarinetes",
         "noFollow": true,
-        "tagTitle": "Acessórios",
-        "text": "Acessórios"
+        "tagTitle": "Clarinetes",
+        "text": "Clarinetes"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#audio": {
+  "menu-item#saxofones": {
     "props": {
-      "id": "menu-item-category-audio",
+      "id": "menu-item-category-saxofones",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/audio-e-video",
+        "href": "/saxofones",
         "noFollow": true,
-        "tagTitle": "Audio e Vídeo",
-        "text": "Audio e Vídeo"
+        "tagTitle": "Saxofones",
+        "text": "Saxofones"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#zetta": {
+  "menu-item#oboes": {
     "props": {
-      "id": "menu-item-category-zetta",
+      "id": "menu-item-category-oboes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/zetta-audio",
+        "href": "/oboes",
         "noFollow": true,
-        "tagTitle": "Zetta Audio",
-        "text": "Zetta Audio"
+        "tagTitle": "Oboés",
+        "text": "Oboés"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#official": {
+  "menu-item#fagotes": {
     "props": {
-      "id": "menu-item-category-official",
+      "id": "menu-item-category-fagotes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/produtos-oficiais-abelvolks",
+        "href": "/fagotes",
         "noFollow": true,
-        "tagTitle": "Itens Oficiais",
-        "text": "Itens Oficiais"
+        "tagTitle": "Fagotes",
+        "text": "Fagotes"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#sport": {
+  "menu-item#flautas": {
     "props": {
-      "id": "menu-item-category-sport",
+      "id": "menu-item-category-flautas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/esportes-e-lazer",
+        "href": "/flautas",
         "noFollow": true,
-        "tagTitle": "Esporte/Lazer",
-        "text": "Esporte/Lazer"
+        "tagTitle": "Flautas",
+        "text": "Flautas"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#forHome": {
+  "menu-item#metais": {
     "props": {
-      "id": "menu-item-category-home",
+      "id": "menu-item-category-metais",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/para-sua-casa",
+        "href": "/metais",
         "noFollow": true,
-        "tagTitle": "Para sua Casa",
-        "text": "Para sua Casa"
+        "tagTitle": "Metais",
+        "text": "Metais"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox2"
     ]
   },
-  "menu-item#bag": {
+  "menu-item#marcas": {
     "props": {
-      "id": "menu-item-category-bag",
+      "id": "menu-item-category-marcas",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/mochilas",
+        "href": "/marcas",
         "noFollow": true,
-        "tagTitle": "Mochilas",
-        "text": "Mochilas"
+        "tagTitle": "Marcas",
+        "text": "Marcas"
       }
     },
     "blocks": [
       "vtex.menu@2.x:submenu#submenuBox"
     ]
   },
-  "menu-item#perfume": {
+  "menu-item#cds": {
     "props": {
-      "id": "menu-item-category-perfume",
+      "id": "menu-item-category-cds",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/perfumes",
+        "href": "/cds",
         "noFollow": true,
-        "tagTitle": "Perfumes",
-        "text": "Perfumes"
+        "tagTitle": "CDS",
+        "text": "CDS",
+        "showSubcategories": false
       }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#submenuBox"
-    ]
+    }
+  },
+  "menu-item#valePresente": {
+    "props": {
+      "id": "menu-item-category-valePresente",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vale-presente",
+        "noFollow": true,
+        "tagTitle": "Vale Presente",
+        "text": "Vale Presente",
+        "showSubcategories": false
+      }
+    }
   },
   "vtex.menu@2.x:submenu#submenuBox": {
     "children": [
@@ -171,60 +187,14 @@
   "vtex.menu@2.x:menu#submenu": {
     "children": [],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "showSubcategories": true
     }
   },
   "vtex.menu@2.x:menu#submenuOne": {
     "children": [],
     "props": {
       "orientation": "vertical"
-    }
-  },
-  "vtex.menu@2.x:submenu#materiais": {
-    "props": {
-      "width": "auto"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#materiais"
-    ]
-  },
-  "vtex.menu@2.x:menu#materiais": {
-    "props": {
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#materiais-cateteres",
-      "menu-item#materiais-pediatrico"
-    ]
-  },
-  "menu-item#materiais-cateteres": {
-    "props": {
-      "id": "menu-item-materiais-cateteres",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/materiais/cateteres",
-        "noFollow": true,
-        "tagTitle": "Cateteres",
-        "text": "Cateteres"
-      }
-    }
-  },
-  "menu-item#materiais-pediatrico": {
-    "props": {
-      "id": "menu-item-materiais-pediatrico",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/materiais/pediatrico",
-        "noFollow": true,
-        "tagTitle": "Pediátrico",
-        "text": "Pediátrico"
-      }
     }
   }
 }
