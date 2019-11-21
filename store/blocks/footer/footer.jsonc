@@ -104,7 +104,7 @@
   },
   "rich-text#trocasEdevolucoes": {
     "props": {
-      "text": "[Trocas e devoluções](/trocas-devolucoes)",
+      "text": "[Trocas e devoluções](/trocas-e-devolucoes)",
       "blockClass": "footer-links"
     }
   },
@@ -402,7 +402,7 @@
   },
   "rich-text#trocasEdevolucoes": {
     "props": {
-      "text": "[Trocas e devoluções](/trocas-devolucoes)",
+      "text": "[Trocas e devoluções](/trocas-e-devolucoes)",
       "blockClass": "footer-links"
     }
   },
