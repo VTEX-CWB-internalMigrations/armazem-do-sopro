@@ -6,266 +6,259 @@
     },
     "vtex.menu@2.x:menu#mobileMain": {
         "children": [
-            "menu-item#acessoriosMob",
-            "menu-item#audioVideoMob",
-            "menu-item#zettaMob",
-            "menu-item#oficialMob",
-            "menu-item#esporteMob",
-            "menu-item#paraCasaMob",
-            "menu-item#mochilaMob",
-            "menu-item#perfumeMob"
+            "menu-item#clarinetesMob",
+            "menu-item#saxofonesMob",
+            "menu-item#oboesMob",
+            "menu-item#fagotesMob",
+            "menu-item#flautasMob",
+            "menu-item#metaisMob",
+            "menu-item#marcasMob",
+            "menu-item#cdsMob",
+            "menu-item#valePresente"
         ],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileMenu"
         }
     },
-    // ---------- ACESSÓRIOS MOBILE --------- //
-    "menu-item#acessoriosMob": {
+    "menu-item#clarinetesMob": {
         "props": {
-            "id": "menu-item-category-acessories-mob",
+            "id": "menu-item-category-clarinetes-mob",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/acessorios",
+                "href": "/clarinetes",
                 "noFollow": true,
-                "tagTitle": "Acessórios",
-                "text": "Acessórios"
+                "tagTitle": "Clarinetes",
+                "text": "Clarinetes"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#acessories"
+            "vtex.menu@2.x:submenu.accordion#clarinetes"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#acessories": {
+    "vtex.menu@2.x:submenu.accordion#clarinetes": {
         "children": [
-            "vtex.menu@2.x:menu#acessoriesAccordion"
+            "vtex.menu@2.x:menu#clarinetesAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#acessoriesAccordion": {
+    "vtex.menu@2.x:menu#clarinetesAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ----------- AUDIO E VIDEO MOBILE ------------- //
-    "menu-item#audioVideoMob": {
+    "menu-item#saxofonesMob": {
         "props": {
-            "id": "menu-item-category-audio-video-mob",
+            "id": "menu-item-category-saxofones-mob",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/acessorios",
+                "href": "/saxofones",
                 "noFollow": true,
-                "tagTitle": "Audio e Vídeo",
-                "text": "Audio e Vídeo"
+                "tagTitle": "Saxofones",
+                "text": "Saxofones"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#audioVideo"
+            "vtex.menu@2.x:submenu.accordion#saxofones"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#audioVideo": {
+    "vtex.menu@2.x:submenu.accordion#saxofones": {
         "children": [
-            "vtex.menu@2.x:menu#audioVideoAccordion"
+            "vtex.menu@2.x:menu#saxofonesAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#audioVideoAccordion": {
+    "vtex.menu@2.x:menu#saxofonesAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ---------- ZETTA SUBMENU ----------
-    "menu-item#zettaMob": {
+    "menu-item#oboesMob": {
         "props": {
-            "id": "menu-item-category-zetta-mob",
+            "id": "menu-item-category-oboes-mob",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/zetta-audio",
+                "href": "/oboes",
                 "noFollow": true,
-                "tagTitle": "Zetta Audio",
-                "text": "Zetta Audio"
+                "tagTitle": "Oboés",
+                "text": "Oboés"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#zettaMob"
+            "vtex.menu@2.x:submenu.accordion#oboesMob"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#zettaMob": {
+    "vtex.menu@2.x:submenu.accordion#oboesMob": {
         "children": [
-            "vtex.menu@2.x:menu#zettaAccordion"
+            "vtex.menu@2.x:menu#oboesAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#zettaAccordion": {
+    "vtex.menu@2.x:menu#oboesAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ------------ OFICIAIS -------------- //
-    "menu-item#oficialMob": {
+    "menu-item#fagotesMob": {
         "props": {
-            "id": "menu-item-category-oficial-mob",
+            "id": "menu-item-category-fagotes-mob",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/itens-oficiais",
+                "href": "/fagotes",
                 "noFollow": true,
-                "tagTitle": "Itens Oficiais",
-                "text": "Itens Oficiais"
+                "tagTitle": "Fagotes",
+                "text": "Fagotes"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#oficialMob"
+            "vtex.menu@2.x:submenu.accordion#fagotesMob"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#oficialMob": {
+    "vtex.menu@2.x:submenu.accordion#fagotesMob": {
         "children": [
-            "vtex.menu@2.x:menu#oficialAccordion"
+            "vtex.menu@2.x:menu#fagotesAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#oficialAccordion": {
+    "vtex.menu@2.x:menu#fagotesAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ------------ ESPORTE MOBILE -------------- //
-    "menu-item#esporteMob": {
+    "menu-item#flautasMob": {
         "props": {
-            "id": "menu-item-category-esporte-mob",
+            "id": "menu-item-category-flautas-mob",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/esporte-lazer",
+                "href": "/flautas",
                 "noFollow": true,
-                "tagTitle": "Esporte/Lazer",
-                "text": "Esporte/Lazer"
+                "tagTitle": "Flautas",
+                "text": "Flautas"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#esporteMob"
+            "vtex.menu@2.x:submenu.accordion#flautasMob"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#esporteMob": {
+    "vtex.menu@2.x:submenu.accordion#flautasMob": {
         "children": [
-            "vtex.menu@2.x:menu#esporteAccordion"
+            "vtex.menu@2.x:menu#flautasAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#esporteAccordion": {
+    "vtex.menu@2.x:menu#flautasAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ---------- PARA A CASA ------------ //
-    "menu-item#paraCasaMob": {
+    "menu-item#metaisMob": {
         "props": {
-            "id": "menu-item-category-para-casa-mob",
+            "id": "menu-item-category-metais-mob",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/para-sua-casa",
+                "href": "/metais",
                 "noFollow": true,
-                "tagTitle": "Para Sua Casa",
-                "text": "Para Sua Casa"
+                "tagTitle": "Metais",
+                "text": "Metais"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#paraCasaMob"
+            "vtex.menu@2.x:submenu.accordion#metaisMob"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#paraCasaMob": {
+    "vtex.menu@2.x:submenu.accordion#metaisMob": {
         "children": [
-            "vtex.menu@2.x:menu#paraCasaAccordion"
+            "vtex.menu@2.x:menu#metaisAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#paraCasaAccordion": {
+    "vtex.menu@2.x:menu#metaisAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // ------------- MOCHILA ------------ //
-    "menu-item#mochilaMob": {
+    "menu-item#marcasMob": {
         "props": {
-            "id": "menu-item-category-mochilas-mob",
+            "id": "menu-item-category-marcas-mob",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/mochilas",
+                "href": "/marcas",
                 "noFollow": true,
-                "tagTitle": "Mochilas",
-                "text": "Mochilas"
+                "tagTitle": "Marcas",
+                "text": "Marcas"
             }
         },
         "blocks": [
-            "vtex.menu@2.x:submenu.accordion#mochilasMob"
+            "vtex.menu@2.x:submenu.accordion#marcasMob"
         ]
     },
-    "vtex.menu@2.x:submenu.accordion#mochilasMob": {
+    "vtex.menu@2.x:submenu.accordion#marcasMob": {
         "children": [
-            "vtex.menu@2.x:menu#mochilasAccordion"
+            "vtex.menu@2.x:menu#marcasAccordion"
         ]
     },
-    "vtex.menu@2.x:menu#mochilasAccordion": {
+    "vtex.menu@2.x:menu#marcasAccordion": {
         "children": [],
         "props": {
             "orientation": "vertical",
             "blockClass": "mobileSubmenu"
         }
     },
-    // --------------- PERFUME --------------- //
-    "menu-item#perfumeMob": {
+    "menu-item#cdsMob": {
         "props": {
-            "id": "menu-item-category-perfume-mob",
+            "id": "menu-item-category-cds-mob",
             "type": "custom",
             "iconId": null,
             "highlight": false,
             "itemProps": {
                 "type": "internal",
-                "href": "/perfume",
+                "href": "/cds",
                 "noFollow": true,
-                "tagTitle": "Perfume",
-                "text": "Perfume"
+                "tagTitle": "CDS",
+                "text": "CDS"
             }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu.accordion#perfume"
-        ]
+        }
     },
-    "vtex.menu@2.x:submenu.accordion#perfume": {
-        "children": [
-            "vtex.menu@2.x:menu#perfumeAccordion"
-        ]
-    },
-    "vtex.menu@2.x:menu#perfumeAccordion": {
-        "children": [],
+    "menu-item#valePresenteMob": {
         "props": {
-            "orientation": "vertical",
-            "blockClass": "mobileSubmenu"
+            "id": "menu-item-category-vale-presente-mob",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/vale-presente",
+                "noFollow": true,
+                "tagTitle": "Vale Presente",
+                "text": "Vale Presente"
+            }
         }
     }
 }

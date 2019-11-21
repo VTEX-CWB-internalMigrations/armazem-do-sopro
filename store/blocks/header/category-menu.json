@@ -188,7 +188,8 @@
     "children": [],
     "props": {
       "orientation": "vertical",
-      "showSubcategories": true
+      "showSubcategories": true,
+      "blockClass": "submenuColumn"
     }
   },
   "vtex.menu@2.x:menu#submenuOne": {
