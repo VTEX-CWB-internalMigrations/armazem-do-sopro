@@ -73,6 +73,9 @@
   .flexRow--contentMap .stretchChildrenWidth:last-child{
     width:70% !important;
   }  
+  .flexRow--contentMap2 .stretchChildrenWidth:last-child{
+    width:100% !important;
+  }  
 }
 
 @media only screen and (max-width:640px){

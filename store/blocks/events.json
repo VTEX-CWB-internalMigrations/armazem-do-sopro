@@ -34,7 +34,7 @@
         "flex-layout.col#addressMap"
       ],
       "props":{
-        "blockClass":"contentMap"
+        "blockClass":"contentMap2"
       }
     },
     "flex-layout.col#addressMap":{
