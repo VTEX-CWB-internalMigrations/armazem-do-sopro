@@ -50,7 +50,8 @@
     ],
     "props": {
       "blockClass": "menu-mundial",
-      "inverted": true
+      "inverted": true,
+      "sticky": true
     }
   },
   "rich-text#televendas": {
@@ -122,13 +123,6 @@
       "blockClass": "main-header-mobile"
     }
   },
-  // "menu#drawer": {
-  //   "children": [
-  //   ],
-  //   "props": {
-  //     "orientation": "vertical"
-  //   }
-  // },
   "logo#mobile": {
     "props": {
       "title": "Logo",
