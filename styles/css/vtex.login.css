@@ -1,11 +1,33 @@
-.container{background:transparent;}
-.label{
+.container {background:transparent;}
+.label {
     width: 25px;
     height: 24px;
     display: block;    
     text-indent: -9999px;
-    background: url(https://armazemdosopro.vteximg.com.br/arquivos/user-icon.png) no-repeat center center scroll transparent;}
+    background: url(https://armazemdosopro.vteximg.com.br/arquivos/user-icon.png) no-repeat center center scroll transparent;
+}
 
+.profile {
+    color: #ffffff!important;
+}
+
+.accountOptions :global(.vtex-button) {
+    color: #3f3e00!important;
+    border: 1px solid #3f3e00; 
+}
+
+.accountOptions :global(.vtex-button):hover {
+    color: #ffffff!important;
+}
+
+.button {
+    color: #3f3e00!important;
+    border: 1px solid #3f3e00; 
+}
+
+.backButton :global(.vtex-button):hover {
+    color: #ffffff;
+}
 
 @media only screen and (min-width: 640px) {
     .container{

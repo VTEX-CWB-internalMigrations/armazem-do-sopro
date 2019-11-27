@@ -103,13 +103,6 @@
       "buy-button"
     ]
   },
-  // warning
-  // "rich-text#warning":{
-  //   "props":{
-  //     "text":"ATENÇÃO AOS DIAS DE ENTREGA DOS PRODUTOS QUE NECESSITAM DE CONSERVAÇÃO ESPECIAL 2ºC A 8ºC (SEGUNDA-FEIRA À TERÇA-FEIRA). ESSE MEDICAMENTO É ENVIADO NO PRAZO DE 48 HORAS CONFORME AS BOAS PRÁTICAS DE TRANSPORTE. QUALQUER DÚVIDA FALE COM NOSSA FARMACÊUTICA.",
-  //     "blockClass": "alert"
-  //   }
-  // },
   "share#default": {
     "props": {
       "social": {
