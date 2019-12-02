@@ -9,6 +9,15 @@
     color: #fff;
 }
 
+.menuItem:hover {
+    background: #9d9a01;
+}
+
+
+.menuItem:hover .styledLink {
+    color: #3f3e00!important;
+}
+
 .menuContainer--mobileMenu .menuContainer--mobileSubmenu .styledLinkContainer{
     padding: 10px 20px;
     background: #fff;

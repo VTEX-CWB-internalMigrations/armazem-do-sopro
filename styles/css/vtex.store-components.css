@@ -1,9 +1,60 @@
+.infoCardContainer--footimagecard {
+  height: 300px;
+  position: relative;
+}
+
+.infoCardContainer--footimagecard .infoCardHeadline{
+  font-size: 25px;
+  margin-top: 85px;
+}
+.infoCardContainer--footimagecard .infoCardHeadline,
+.infoCardContainer--footimagecard .infoCardSubhead{
+  color: #fff;
+}
+.infoCardContainer--footimagecard .infoCardSubhead{
+  opacity: 0;
+}
+.infoCardContainer--footimagecard:hover .infoCardSubhead{
+  opacity: 1;
+  transition: 1s;
+}
+.infoCardContainer--footimagecard:hover .infoCardTextContainer{
+  background: #3f3e00b8;
+  transition: 1s;
+  outline: 2px solid white;
+  outline-offset: -30px;
+}
+
+.infoCardContainer--footimagecard .infoCardTextContainer{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 45px;
+}
+
+.infoCardContainer--footimagecard .infoCardCallActionContainer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: 0px;
+}
+.infoCardContainer--footimagecard .infoCardCallActionContainer button{
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+
 .notificationBarContainer {
   background-color: #E6F1E6;
   color: #03034E;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
+}
+
+.logoImage {
+  width: 120px!important;
 }
 
 .searchBarContainer {
@@ -117,10 +168,6 @@
   display: none
 }
 
-.imageElement--flagsImg {
-  width: 100%;
-}
-
 .imageElement--WhatsImage {
   display: none;
 }
@@ -179,4 +226,12 @@
   .shareContainer .shareButtons{justify-content: center;}
   .carouselGaleryCursor{padding:1em;box-sizing: border-box;border:1px solid #ccc;}
   .shippingTable{border:1px solid #eee;}
+}
+
+@media only screen and (min-width: 1200px) {
+  .infoCardContainer--footimagecard {
+    height: 380px;
+    width: 380px;
+    margin: 0px auto;
+  }
 }

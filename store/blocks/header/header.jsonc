@@ -13,17 +13,8 @@
   },
   "header-layout.desktop": {
     "children": [
-      "header-row#contact",
       "header-row#logobar",
       "header-row#menu"
-    ]
-  },
-  "header-row#contact": {
-    "children": [
-      "rich-text#televendas",
-      "rich-text#telefone",
-      "header-spacer",
-      "login"
     ]
   },
   "header-row#logobar": {
@@ -31,6 +22,8 @@
       "logo#desktop",
       "header-spacer",
       "search-bar",
+      "header-spacer",
+      "login",
       "header-spacer",
       "minicart"
     ],
@@ -74,8 +67,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___fa69a6c246a6d930a37ee1b49ed72dbe.png",
-      "width": "180"
+      "url": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___fa69a6c246a6d930a37ee1b49ed72dbe.png"
     }
   },
   "minicart": {

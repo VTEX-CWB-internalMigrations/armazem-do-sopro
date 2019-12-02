@@ -16,6 +16,16 @@
     border: 1px solid #3f3e00; 
 }
 
+.container :global(.vtex-button):hover .label{
+    color: #3f3e00!important;
+}
+
+.container :global(.vtex-button):hover,
+.container :global(.vtex-button):focus {
+    border: 1px solid #3f3e00!important;
+    background-color: #9d9a01!important;
+}
+
 .accountOptions :global(.vtex-button):hover {
     color: #ffffff!important;
 }

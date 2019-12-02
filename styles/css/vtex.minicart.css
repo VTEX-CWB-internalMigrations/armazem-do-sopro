@@ -1,6 +1,13 @@
 .container :global(.vtex-button):hover,
 .container :global(.vtex-button):focus {
+    color: #3f3e00;
+    border: 1px solid #3f3e00;
+    background: transparent;
+}
+
+.container :global(.vtex-button) {
     color: #ffffff;
+    background: #3f3e00;
 }
 
 .itemDeleteIcon :global(.vtex-button):focus,

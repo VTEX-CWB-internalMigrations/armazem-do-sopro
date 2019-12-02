@@ -160,7 +160,7 @@
       "rich-text#siganos",
       "social-networks",
       "rich-text#pagamento",
-      "image#flagPayments"
+      "flex-layout.row#flagPayments"
     ],
     "props": {
       "blockClass": "footer-content3"
@@ -225,10 +225,110 @@
       "blockClass": "footer-title"
     }
   },
-  "image#flagPayments": {
+  "flex-layout.row#flagPayments": {
+    "children" : [
+      "flex-layout.col#primeira",
+      "flex-layout.col#segunda",
+      "flex-layout.col#terceira",
+      "flex-layout.col#quarta"
+    ],
+    "props":{
+      "blockClass": "colunaPagamento"
+    }
+  },
+  "flex-layout.col#primeira":{
+    "children":[
+      "image#flagOne",
+      "image#flagTwo",
+      "image#flagTeen"
+    ]
+  },
+  "flex-layout.col#segunda":{
+    "children":[
+      "image#flagFour",
+      "image#flagFive",
+      "image#flagNine"
+    ]
+  },
+  "flex-layout.col#terceira":{
+    "children":[
+      "image#flagSeven",
+      "image#flagEight"
+    ]
+  },
+  "flex-layout.col#quarta": {
+    "children":[
+      "image#flagThree",
+      "image#flagSix"
+    ]
+  },
+  "image#flagOne": {
+      "props": {
+        "alt": "Formas de pagamento",
+        "src": "/arquivos/rodape_pag_pagseguro.png",
+        "blockClass": "flagsImg"
+      }
+  },
+  "image#flagTwo": {
     "props": {
       "alt": "Formas de pagamento",
-      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/flag-payments___1988dec72f5caa1c8c700a68de4477a1.png",
+      "src": "/arquivos/rodape_pag_jcb.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagThree": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_hipercard.png",
+      "blockClass": "flagsImgAura"
+    }
+  },
+  "image#flagFour": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_elo.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagFive": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_deposito.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagSix": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_boleto.png",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagSeven": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_aura.png",
+      "blockClass": "flagsImgAura"
+    }
+  },
+  "image#flagEight": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_band_visa.gif",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagNine": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_band_mastercard.gif",
+      "blockClass": "flagsImg"
+    }
+  },
+  "image#flagTeen": {
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_band_diners.gif",
       "blockClass": "flagsImg"
     }
   },
@@ -333,7 +433,7 @@
   },
   "footer-row#1-mobile": {
     "children": [
-      "image#flagPayments"
+      "flex-layout.row#flagPayments"
     ],
     "props": {
       "blockClass": "payment-methods"
