@@ -253,13 +253,13 @@
   "flex-layout.col#terceira":{
     "children":[
       "image#flagSeven",
-      "image#flagEight"
+      "image#flagEight",
+      "image#flagSix"
     ]
   },
   "flex-layout.col#quarta": {
     "children":[
-      "image#flagThree",
-      "image#flagSix"
+      "image#flagThree"
     ]
   },
   "image#flagOne": {
