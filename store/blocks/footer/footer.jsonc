@@ -158,9 +158,9 @@
   "flex-layout.col#footerCol3": {
     "children": [
       "rich-text#siganos",
+      //"sandbox#face",
       "social-networks",
-      "rich-text#pagamento",
-      "flex-layout.row#flagPayments"
+      "rich-text#facebook"
     ],
     "props": {
       "blockClass": "footer-content3"
@@ -170,6 +170,11 @@
     "props": {
       "text": "SIGA NOS!",
       "blockClass": "footer-title"
+    }
+  },
+  "rich-text#facebook":{
+    "props":{
+      "text": "'<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farmazemdosopro&tabs=timeline&width=340&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId' width='340' height='250' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>'"
     }
   },
   "rich-text#centralAtendimento": {
@@ -198,6 +203,8 @@
   },
   "flex-layout.col#footerCol4": {
     "children": [
+      "rich-text#pagamento",
+      "flex-layout.row#flagPayments",
       "rich-text#seguranca",
       "flex-layout.row#certificados"
     ],
@@ -205,6 +212,11 @@
       "blockClass": "footer-content4"
     }
   },
+  //"sandbox#face":{
+    //"props":{
+    //"initialContent": "<iframe src='www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fanalorencom%2F165203340207714%3Ffref%3Dts&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=626212267424713' scrolling='no' frameborder='0' style='border:none; overflow:hidden; height:258px;' allowtransparency='true'></iframe>"
+    //}
+  //},
   "social-networks": {
     "props": {
       "socialNetworks": [
