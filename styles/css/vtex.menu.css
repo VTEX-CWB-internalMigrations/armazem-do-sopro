@@ -13,9 +13,21 @@
     background: #9d9a01;
 }
 
+.submenu {
+   border-right: 2px solid #9d9a01;
+   border-bottom: 2px solid #9d9a01;
+   border-left: 2px solid #9d9a01;
+   margin-top: -12px;
+   margin-bottom: -12px;
+   box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+}
 
 .menuItem:hover .styledLink {
     color: #3f3e00!important;
+}
+
+.menuItem .styledLink:hover {
+    color: #ffffff!important;
 }
 
 .menuContainer--mobileMenu .menuContainer--mobileSubmenu .styledLinkContainer{
