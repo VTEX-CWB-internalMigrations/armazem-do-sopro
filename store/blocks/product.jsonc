@@ -56,8 +56,8 @@
       "product-name",
       "product-identifier.product",
       "product-highlights",
-      "sku-selector",
       "availability-subscriber",
+      "sku-selector",
       "flex-layout.row#product-boxAction",
       "flex-layout.row#yourviewsStamp",
       "shipping-simulator"

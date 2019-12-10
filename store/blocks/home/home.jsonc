@@ -282,10 +282,10 @@
   "flex-layout.row#banners":{
     "children":[
       "flex-layout.col#firstBanner",
-      "flex-layout.col#secondBanner",
-      "flex-layout.col#thirdBanner",
       "flex-layout.col#fourthBanner",
-      "flex-layout.col#fifthBanner"
+      "flex-layout.col#secondBanner",
+      "flex-layout.col#fifthBanner",
+      "flex-layout.col#thirdBanner"
     ]
   },
   "flex-layout.col#firstBanner":{
@@ -336,7 +336,18 @@
       "blockClass": "footimagecard",
       "callToActionUrl": "/saxofones",
       "headline": "SAXOFONES",
-      "subhead": "Saxofone, também conhecido popularmente como sax, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
+      "subhead": "Saxofone, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
+    }
+  },
+  "info-card#fourthBanner":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://cdn.pixabay.com/photo/2019/03/31/11/33/clarinet-4092904_960_720.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "/clarinetes",
+      "headline": "CLARINETES",
+      "subhead": "Clarinete, possui quatro registros: grave (Chalumeau), médio, agudo e super-agudo."
     }
   },
   "info-card#secondBanner":{
@@ -347,7 +358,7 @@
       "blockClass": "footimagecard",
       "callToActionUrl": "/oboe",
       "headline": "OBOÉS",
-      "subhead": "O oboé é um instrumento musical de sopro, classificado como um aerofone, membro da família das madeiras e de palheta dupla."
+      "subhead": "Oboé, membro da família das madeiras e de palheta dupla."
     }
   },
   "info-card#thirdBanner":{
@@ -357,29 +368,18 @@
       "textPosition": "center",
       "blockClass": "footimagecard",
       "headline": "FLAUTAS",
-      "subhead": "A flauta é um instrumento musical de sopro feito de diversos tipos de madeiras com formato de um tubo oco com orifícios."
-    }
-  },
-  "info-card#fourthBanner":{
-    "props":{
-      "isFullModeStyle": true,
-      "imageUrl": "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
-      "textPosition": "center",
-      "blockClass": "footimagecard",
-      "callToActionUrl": "/saxofones",
-      "headline": "SAXOFONES",
-      "subhead": "Saxofone, também conhecido popularmente como sax, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
+      "subhead": "Flauta é o mais versátil dos instrumentos de sopro."
     }
   },
   "info-card#fifthBanner":{
     "props":{
       "isFullModeStyle": true,
-      "imageUrl": "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "imageUrl": "http://4.bp.blogspot.com/_BKfU2s4HENw/S-Al0NnpBiI/AAAAAAAAAE8/wkLj6Ev3nOM/s1600/fagote_adolfo.jpg",
       "textPosition": "center",
       "blockClass": "footimagecard",
       "callToActionUrl": "/saxofones",
-      "headline": "SAXOFONES",
-      "subhead": "Saxofone, também conhecido popularmente como sax, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
+      "headline": "FAGOTES",
+      "subhead": "A palavra fagote deriva do italiano fagotto."
     }
   },
   // Showcase 03

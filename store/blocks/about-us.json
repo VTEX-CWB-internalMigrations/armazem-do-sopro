@@ -71,7 +71,7 @@
   },
   "flex-layout.col#firstBanner":{
     "children":[
-      "info-card#firstBanner"
+      "rich-text#firstBanner"
     ],
     "props":{
       "blockClass": "footimagebox"
@@ -79,7 +79,7 @@
   },
   "flex-layout.col#secondBanner":{
     "children":[
-      "info-card#secondBanner"
+      "rich-text#secondBanner"
     ],
     "props":{
       "blockClass": "footimagebox"
@@ -87,42 +87,37 @@
   },
   "flex-layout.col#thirdBanner":{
     "children":[
-      "info-card#thirdBanner"
+      "rich-text#thirdBanner"
     ],
     "props":{
       "blockClass": "footimagebox"
     }
   },
-  "info-card#firstBanner":{
+  "rich-text#firstBanner":{
     "props":{
       "isFullModeStyle": true,
-      "imageUrl": "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipMqG6vIbYSfcV0npN-MyjTjQvhH9pWqGAaldePt=w203-h270-k-no",
       "textPosition": "center",
       "blockClass": "footimagecard",
-      "callToActionUrl": "/saxofones",
-      "headline": "SAXOFONES",
-      "subhead": "Saxofone, também conhecido popularmente como sax, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
+      "subhead": "Visite-nos."
     }
   },
-  "info-card#secondBanner":{
+  "rich-text#secondBanner":{
     "props":{
       "isFullModeStyle": true,
-      "imageUrl": "https://images.pexels.com/photos/51937/oboe-music-tool-art-51937.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "imageUrl": "//geo0.ggpht.com/cbk?output=thumbnail&panoid=cU_-MrkYSwg08zGSM26TDw&minw=588&minh=290&thumb=2&yaw=59.3112&pitch=0",
       "textPosition": "center",
       "blockClass": "footimagecard",
-      "callToActionUrl": "/oboe",
-      "headline": "OBOÉS",
-      "subhead": "O oboé é um instrumento musical de sopro, classificado como um aerofone, membro da família das madeiras e de palheta dupla."
+      "subhead": "Visite-nos."
     }
   },
-  "info-card#thirdBanner":{
+  "rich-text#thirdBanner":{
     "props":{
       "isFullModeStyle": true,
-      "imageUrl": "https://images.pexels.com/photos/2254140/pexels-photo-2254140.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipP5VW441YmBtF4EIYRXSvQy0SsZYUVrQlxJKrAx=w203-h152-k-no",
       "textPosition": "center",
       "blockClass": "footimagecard",
-      "headline": "FLAUTAS",
-      "subhead": "A flauta é um instrumento musical de sopro feito de diversos tipos de madeiras com formato de um tubo oco com orifícios."
+      "subhead": "Visite-nos."
     }
   }
 }
