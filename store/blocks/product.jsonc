@@ -56,10 +56,18 @@
       "product-name",
       "product-identifier.product",
       "product-highlights",
+      "sku-selector",
+      "availability-subscriber",
       "flex-layout.row#product-boxAction",
       "flex-layout.row#yourviewsStamp",
       "shipping-simulator"
     ]
+  },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "showValueNameForImageVariation": true
+    }
   },
   "flex-layout.row#product-boxAction": {
     "props": {
