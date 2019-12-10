@@ -273,7 +273,9 @@
     "children":[
       "flex-layout.col#firstBanner",
       "flex-layout.col#secondBanner",
-      "flex-layout.col#thirdBanner"
+      "flex-layout.col#thirdBanner",
+      "flex-layout.col#fourthBanner",
+      "flex-layout.col#fifthBanner"
     ]
   },
   "flex-layout.col#firstBanner":{
@@ -295,6 +297,22 @@
   "flex-layout.col#thirdBanner":{
     "children":[
       "info-card#thirdBanner"
+    ],
+    "props":{
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#fourthBanner":{
+    "children":[
+      "info-card#fourthBanner"
+    ],
+    "props":{
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#fifthBanner":{
+    "children":[
+      "info-card#fifthBanner"
     ],
     "props":{
       "blockClass": "footimagebox"
@@ -330,6 +348,28 @@
       "blockClass": "footimagecard",
       "headline": "FLAUTAS",
       "subhead": "A flauta é um instrumento musical de sopro feito de diversos tipos de madeiras com formato de um tubo oco com orifícios."
+    }
+  },
+  "info-card#fourthBanner":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "/saxofones",
+      "headline": "SAXOFONES",
+      "subhead": "Saxofone, também conhecido popularmente como sax, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
+    }
+  },
+  "info-card#fifthBanner":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "/saxofones",
+      "headline": "SAXOFONES",
+      "subhead": "Saxofone, também conhecido popularmente como sax, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
     }
   },
   // Showcase 03

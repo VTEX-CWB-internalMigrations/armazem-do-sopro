@@ -57,6 +57,7 @@
       "product-identifier.product",
       "product-highlights",
       "flex-layout.row#product-boxAction",
+      "flex-layout.row#yourviewsStamp",
       "shipping-simulator"
     ]
   },
@@ -79,13 +80,21 @@
       "buy-button"
     ]
   },
+  "flex-layout.row#yourviewsStamp":{
+    "children":["rich-text#stamp"]
+  },
+  "rich-text#stamp":{
+    "props":{
+      "text": "![Yourviews](//service.yourviews.com.br/image/9dac565a-23c6-4a83-92b0-a1da84819246/570_112/stamplarge.jpg)"
+    }
+  },
   "share#default": {
     "props": {
       "social": {
         "Facebook": true,
         "WhatsApp": true,
         "Twitter": false,
-        "Pinterest": true
+        "Pinterest": false
       }
     }
   },

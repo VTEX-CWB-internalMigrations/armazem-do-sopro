@@ -1,14 +1,14 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
-      "menu-item#cds",
+      "menu-item#saxofones",
       "menu-item#clarinetes",
+      "menu-item#oboes",
       "menu-item#fagotes",
       "menu-item#flautas",
       "menu-item#marcas",
+      "menu-item#cds",
       "menu-item#metais",
-      "menu-item#oboes",
-      "menu-item#saxofones",
       "menu-item#valePresente"
     ],
     "props": {

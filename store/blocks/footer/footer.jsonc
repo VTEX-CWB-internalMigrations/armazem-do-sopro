@@ -370,7 +370,8 @@
   },
   "flex-layout.col#certificadoLetsEncrypt": {
     "children": [
-      "rich-text#letsEncrypt"
+      "rich-text#letsEncrypt",
+      "rich-text#yourviews"
     ]
   },
   "flex-layout.col#certificadoGoogle": {
@@ -381,6 +382,11 @@
   "rich-text#google": {
     "props": {
       "text": "![Google](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-google___b4118dcafc4103591c63352301abf8d0.png)"
+    }
+  },
+  "rich-text#yourviews":{
+    "props" :{
+      "text": "![YourViews](//service.yourviews.com.br/Image/9dac565a-23c6-4a83-92b0-a1da84819246/Footer.jpg)"
     }
   },
   "flex-layout.col#footer3Col1": {
