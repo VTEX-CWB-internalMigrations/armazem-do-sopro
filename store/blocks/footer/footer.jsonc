@@ -172,8 +172,8 @@
       "blockClass": "footer-title"
     }
   },
-  "rich-text#facebook":{
-    "props":{
+  "rich-text#facebook": {
+    "props": {
       "text": "'<iframe src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Farmazemdosopro&tabs=timeline&width=340&height=250&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId' width='340' height='250' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media'></iframe>'"
     }
   },
@@ -213,9 +213,9 @@
     }
   },
   //"sandbox#face":{
-    //"props":{
-    //"initialContent": "<iframe src='www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fanalorencom%2F165203340207714%3Ffref%3Dts&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=626212267424713' scrolling='no' frameborder='0' style='border:none; overflow:hidden; height:258px;' allowtransparency='true'></iframe>"
-    //}
+  //"props":{
+  //"initialContent": "<iframe src='www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fanalorencom%2F165203340207714%3Ffref%3Dts&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=626212267424713' scrolling='no' frameborder='0' style='border:none; overflow:hidden; height:258px;' allowtransparency='true'></iframe>"
+  //}
   //},
   "social-networks": {
     "props": {
@@ -238,48 +238,48 @@
     }
   },
   "flex-layout.row#flagPayments": {
-    "children" : [
+    "children": [
       "flex-layout.col#primeira",
       "flex-layout.col#segunda",
       "flex-layout.col#terceira",
       "flex-layout.col#quarta"
     ],
-    "props":{
+    "props": {
       "blockClass": "colunaPagamento"
     }
   },
-  "flex-layout.col#primeira":{
-    "children":[
+  "flex-layout.col#primeira": {
+    "children": [
       "image#flagOne",
       "image#flagTwo",
       "image#flagTeen"
     ]
   },
-  "flex-layout.col#segunda":{
-    "children":[
+  "flex-layout.col#segunda": {
+    "children": [
       "image#flagFour",
       "image#flagFive",
       "image#flagNine"
     ]
   },
-  "flex-layout.col#terceira":{
-    "children":[
+  "flex-layout.col#terceira": {
+    "children": [
       "image#flagSeven",
       "image#flagEight",
       "image#flagSix"
     ]
   },
   "flex-layout.col#quarta": {
-    "children":[
+    "children": [
       "image#flagThree"
     ]
   },
   "image#flagOne": {
-      "props": {
-        "alt": "Formas de pagamento",
-        "src": "/arquivos/rodape_pag_pagseguro.png",
-        "blockClass": "flagsImg"
-      }
+    "props": {
+      "alt": "Formas de pagamento",
+      "src": "/arquivos/rodape_pag_pagseguro.png",
+      "blockClass": "flagsImg"
+    }
   },
   "image#flagTwo": {
     "props": {
@@ -384,8 +384,8 @@
       "text": "![Google](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-google___b4118dcafc4103591c63352301abf8d0.png)"
     }
   },
-  "rich-text#yourviews":{
-    "props" :{
+  "rich-text#yourviews": {
+    "props": {
       "text": "![YourViews](//service.yourviews.com.br/Image/9dac565a-23c6-4a83-92b0-a1da84819246/Footer.jpg)"
     }
   },
@@ -406,7 +406,8 @@
   },
   "flex-layout.col#footerTextInfo": {
     "children": [
-      "rich-text#direitos"    ]
+      "rich-text#direitos"
+    ]
   },
   "rich-text#direitos": {
     "props": {
@@ -591,9 +592,10 @@
       "blockClass": "footer-telefone"
     }
   },
-  "rich-text#googleMaps":{
-    "props":{
-      "text":"'<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.979345339038!2d-46.678739!3d-23.550665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e2c3eb3f12f1dcd!2sArmaz%C3%A9m%20do%20Sopro!5e0!3m2!1spt-BR!2sbr!4v1576082778563!5m2!1spt-BR!2sbr' frameborder='0' style='border:0;' allowfullscreen=''></iframe>'"
+  "rich-text#googleMaps": {
+    "props": {
+      "blockClass": "mapsBox",
+      "text": "'<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14629.979345339038!2d-46.678739!3d-23.550665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2e2c3eb3f12f1dcd!2sArmaz%C3%A9m%20do%20Sopro!5e0!3m2!1spt-BR!2sbr!4v1576082778563!5m2!1spt-BR!2sbr' frameborder='0' style='border:0;' allowfullscreen=''></iframe>'"
     }
   },
   // coluna 3

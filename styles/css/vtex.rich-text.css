@@ -228,11 +228,19 @@
   position: fixed;
 }
 
+.paragraph--mapsBox{
+  display: none;
+}
+
 @media only screen and (min-width: 640px) {
   .container--footer-endereco, .container--footer-telefone, .container--footer-whatsapp, .container--footer-horario{font-size:1rem;}
   .container--question .strong {
     font-size: 40px;
     line-height: 3rem;
+  }
+
+  .paragraph--mapsBox{
+    display: block;
   }
 
   .container--about {

@@ -58,6 +58,17 @@
   width: 120px!important;
 }
 
+.imageElementLink--WhatsImage {
+  margin: 0px auto;
+  display: flex;
+  padding: 10px;
+}
+
+.imageElement--WhatsImage{
+  margin: 0px auto;
+  max-width: 1520px;
+}
+
 .searchBarContainer {
   max-width: 700px;
 }
