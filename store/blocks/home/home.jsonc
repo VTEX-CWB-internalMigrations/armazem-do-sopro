@@ -374,7 +374,7 @@
   "info-card#fifthBanner":{
     "props":{
       "isFullModeStyle": true,
-      "imageUrl": "http://4.bp.blogspot.com/_BKfU2s4HENw/S-Al0NnpBiI/AAAAAAAAAE8/wkLj6Ev3nOM/s1600/fagote_adolfo.jpg",
+      "imageUrl": "https://armazemdosopro.vteximg.com.br/arquivos/fagote_adolfo.jpg",
       "textPosition": "center",
       "blockClass": "footimagecard",
       "callToActionUrl": "/saxofones",
