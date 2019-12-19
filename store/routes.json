@@ -10,5 +10,8 @@
   },
   "store.custom#events":{
     "path":"/events"
+  },
+  "store.custom#reviews":{
+    "path":"/reviews"
   }
 }
