@@ -3,7 +3,9 @@
     "blocks": ["search-result"],
     "props":{
       "context":{
-        "hideUnavailableItems": false
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 50,
+        "orderByField": "OrderByNameASC"
       }
     }
   },
@@ -12,7 +14,9 @@
     "blocks": ["search-result"],
     "props":{
       "context":{
-        "hideUnavailableItems": false
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 50,
+        "orderByField": "OrderByNameASC"
       }
     }
   },
@@ -21,7 +25,9 @@
     "blocks": ["search-result"],
     "props":{
       "context":{
-        "hideUnavailableItems": false
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 50,
+        "orderByField": "OrderByNameASC"
       }
     }
   },
@@ -30,7 +36,9 @@
     "blocks": ["search-result"],
     "props":{
       "context":{
-        "hideUnavailableItems": false
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 50,
+        "orderByField": "OrderByNameASC"
       }
     }
   },
@@ -39,7 +47,9 @@
     "blocks": ["search-result"],
     "props":{
       "context":{
-        "hideUnavailableItems": false
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 50,
+        "orderByField": "OrderByNameASC"
       }
     }
   },
@@ -56,8 +66,8 @@
     ],
     "props": {
       "querySchema": {
-        "maxItemsPerPage": 4,
-        "orderByField": "OrderByPriceDESC"
+        "maxItemsPerPage": 50,
+        "orderByField": "OrderByNameASC"
       },
       "hiddenFacets": {
         "layoutMode1": "normal",
