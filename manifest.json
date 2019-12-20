@@ -1,7 +1,7 @@
 {
   "vendor": "armazemdosopro",
   "name": "armazem-do-sopro-theme",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "builders": {
     "styles": "1.x",
     "store": "0.x"
@@ -40,7 +40,7 @@
     "vtex.product-specification-badges": "0.x",
     "vtex.product-review-interfaces": "1.x",
     "vtex.telemarketing": "2.x",
-    "vtex.order-placed": "1.x"  
+    "vtex.order-placed": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
