@@ -1,59 +1,63 @@
 {
   "store.search": {
-    "blocks": ["search-result"],
-    "props":{
-      "context":{
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+      "context": {
         "hideUnavailableItems": false,
-        "maxItemsPerPage": 50,
-        "orderByField": "OrderByNameASC"
+        "maxItemsPerPage": 50
       }
     }
   },
-
   "store.search#brand": {
-    "blocks": ["search-result"],
-    "props":{
-      "context":{
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+      "context": {
         "hideUnavailableItems": false,
         "maxItemsPerPage": 50,
         "orderByField": "OrderByNameASC"
       }
     }
   },
-
   "store.search#department": {
-    "blocks": ["search-result"],
-    "props":{
-      "context":{
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+      "context": {
         "hideUnavailableItems": false,
         "maxItemsPerPage": 50,
         "orderByField": "OrderByNameASC"
       }
     }
   },
-
   "store.search#category": {
-    "blocks": ["search-result"],
-    "props":{
-      "context":{
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+      "context": {
         "hideUnavailableItems": false,
         "maxItemsPerPage": 50,
         "orderByField": "OrderByNameASC"
       }
     }
   },
-
   "store.search#subcategory": {
-    "blocks": ["search-result"],
-    "props":{
-      "context":{
+    "blocks": [
+      "search-result"
+    ],
+    "props": {
+      "context": {
         "hideUnavailableItems": false,
         "maxItemsPerPage": 50,
         "orderByField": "OrderByNameASC"
       }
     }
   },
-
   "search-result": {
     "blocks": [
       // It's recommended to use the filter-navigator.v2 instead of the v1 (i.e. just `filter-navigator`)
@@ -104,14 +108,14 @@
       }
     }
   },
-
   "breadcrumb": {
     "props": {
       "showOnMobile": true
     }
   },
-
   "gallery": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": [
+      "product-summary.shelf"
+    ]
   }
 }
