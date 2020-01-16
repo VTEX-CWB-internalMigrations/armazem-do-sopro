@@ -5,3 +5,13 @@
 .slideChildrenContainer--brandSliderLayout {
     text-align: center;
 }
+
+.sliderLayoutContainer--brandSliderLayout{
+    height: 60px;
+}
+
+@media only screen and (min-width: 640px){
+    .sliderLayoutContainer--brandSliderLayout{
+        height: auto;
+    }
+}

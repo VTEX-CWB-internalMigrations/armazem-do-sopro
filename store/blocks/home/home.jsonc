@@ -71,7 +71,7 @@
     "props": {
       "blockClass": "brandSliderLayout",
       "showNavigationArrows": "always",
-      "showPaginationDots": "always"
+      "showPaginationDots": "desktopOnly"
     }
   },
   "image#one": {
@@ -279,8 +279,8 @@
       "blockClass": "consult-shelf"
     }
   },
-  "flex-layout.row#banners":{
-    "children":[
+  "flex-layout.row#banners": {
+    "children": [
       "flex-layout.col#firstBanner",
       "flex-layout.col#fourthBanner",
       "flex-layout.col#secondBanner",
@@ -288,48 +288,48 @@
       "flex-layout.col#thirdBanner"
     ]
   },
-  "flex-layout.col#firstBanner":{
-    "children":[
+  "flex-layout.col#firstBanner": {
+    "children": [
       "info-card#firstBanner"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "flex-layout.col#secondBanner":{
-    "children":[
+  "flex-layout.col#secondBanner": {
+    "children": [
       "info-card#secondBanner"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "flex-layout.col#thirdBanner":{
-    "children":[
+  "flex-layout.col#thirdBanner": {
+    "children": [
       "info-card#thirdBanner"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "flex-layout.col#fourthBanner":{
-    "children":[
+  "flex-layout.col#fourthBanner": {
+    "children": [
       "info-card#fourthBanner"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "flex-layout.col#fifthBanner":{
-    "children":[
+  "flex-layout.col#fifthBanner": {
+    "children": [
       "info-card#fifthBanner"
     ],
-    "props":{
+    "props": {
       "blockClass": "footimagebox"
     }
   },
-  "info-card#firstBanner":{
-    "props":{
+  "info-card#firstBanner": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://images.pexels.com/photos/164936/pexels-photo-164936.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
       "textPosition": "center",
@@ -339,8 +339,8 @@
       "subhead": "Saxofone, é um instrumento de sopro patenteado em 1846 pelo belga Adolphe Sax."
     }
   },
-  "info-card#fourthBanner":{
-    "props":{
+  "info-card#fourthBanner": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://cdn.pixabay.com/photo/2019/03/31/11/33/clarinet-4092904_960_720.jpg",
       "textPosition": "center",
@@ -350,8 +350,8 @@
       "subhead": "Clarinete, possui quatro registros: grave (Chalumeau), médio, agudo e super-agudo."
     }
   },
-  "info-card#secondBanner":{
-    "props":{
+  "info-card#secondBanner": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://images.pexels.com/photos/51937/oboe-music-tool-art-51937.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
       "textPosition": "center",
@@ -361,8 +361,8 @@
       "subhead": "Oboé, membro da família das madeiras e de palheta dupla."
     }
   },
-  "info-card#thirdBanner":{
-    "props":{
+  "info-card#thirdBanner": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://images.pexels.com/photos/2254140/pexels-photo-2254140.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
       "textPosition": "center",
@@ -371,8 +371,8 @@
       "subhead": "Flauta é o mais versátil dos instrumentos de sopro."
     }
   },
-  "info-card#fifthBanner":{
-    "props":{
+  "info-card#fifthBanner": {
+    "props": {
       "isFullModeStyle": true,
       "imageUrl": "https://armazemdosopro.vteximg.com.br/arquivos/fagote_adolfo.jpg",
       "textPosition": "center",

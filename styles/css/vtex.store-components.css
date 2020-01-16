@@ -184,7 +184,15 @@
   display: none;
 }
 
+.imageElement--brandsSlider{
+  max-width: 100px;
+}
+
 @media only screen and (min-width: 640px){
+
+  .imageElement--brandsSlider{
+    max-width: 100%;
+  }
 
   .imageElement--WhatsImage {
     display: unset;
