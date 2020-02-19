@@ -6,7 +6,8 @@
     "props": {
       "context": {
         "hideUnavailableItems": false,
-        "maxItemsPerPage": 50
+        "maxItemsPerPage": 50,
+        "orderByField": "OrderByTopSaleDESC"
       }
     }
   },
@@ -18,7 +19,7 @@
       "context": {
         "hideUnavailableItems": false,
         "maxItemsPerPage": 50,
-        "orderByField": "OrderByNameASC"
+        "orderByField": "OrderByTopSaleDESC"
       }
     }
   },
@@ -30,7 +31,7 @@
       "context": {
         "hideUnavailableItems": false,
         "maxItemsPerPage": 50,
-        "orderByField": "OrderByNameASC"
+        "orderByField": "OrderByTopSaleDESC"
       }
     }
   },
@@ -42,7 +43,7 @@
       "context": {
         "hideUnavailableItems": false,
         "maxItemsPerPage": 50,
-        "orderByField": "OrderByNameASC"
+        "orderByField": "OrderByTopSaleDESC"
       }
     }
   },
@@ -54,7 +55,7 @@
       "context": {
         "hideUnavailableItems": false,
         "maxItemsPerPage": 50,
-        "orderByField": "OrderByNameASC"
+        "orderByField": "OrderByTopSaleDESC"
       }
     }
   },
